@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter basename="/the-beginning-of-react-portofolio">
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/the-beginning-of-react-portofolio" element={<Home />}></Route>
         <Route path="/portofolio/:id" element={<Details />}></Route>
         <Route path="/experience" element={<Experience />}></Route>
         <Route path="/404Page-Not-Found" element={<NotFound />}></Route>
