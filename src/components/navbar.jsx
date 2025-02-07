@@ -20,7 +20,7 @@ function navbar() {
     <nav>
       <div className="wrapper">
         <div className="logo">
-          <Link to="/">danarmuktiw</Link>
+          <Link to="/the-beginning-of-react-portofolio">danarmuktiw</Link>
         </div>
         <button onClick={tampilMenu}>
           {statusTampil == "" ? <FaBars /> : <IoClose />}
